@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/public/css/main.css" rel="stylesheet" />
+    <title>Countries</title>
+  </head>
+  <body>
+    <nav class="bg-gray-800 p-4 text-white">
+      <a href="/" class="text-lg font-bold">Country Collection</a>
+      <a href="/about" class="ml-4">About</a>
+      <div class="ml-4 inline-block">
+        <button class="bg-blue-500 p-2 rounded">Region</button>
+      </div>
+    </nav>
+
+    <section class="hero bg-blue-500 text-center text-white p-8">
+      <h1 class="text-4xl">Welcome to the Country Collection</h1>
+      <a
+        href="/countries"
+        class="btn bg-green-500 text-white p-2 mt-4 inline-block"
+        >Explore Countries</a
+      >
+    </section>
+
+    <div class="container mx-auto grid grid-cols-3 gap-4">
+      <div class="card bg-white shadow-md p-4">
+        <img
+          src="https://flagcdn.com/w320/gd.png"
+          alt="Flag of Grenada"
+          class="w-full"
+        />
+        <h2 class="text-xl font-bold">Grenada</h2>
+        <p>Capital: St. George's</p>
+        <a href="/countries/308" class="bg-blue-500 text-white p-2 rounded"
+          >Learn More</a
+        >
+      </div>
+      <!-- Add more cards as necessary -->
+    </div>
+  </body>
+</html>
