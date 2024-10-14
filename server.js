@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Log middleware for requests
 app.use((req, res, next) => {
-  console.log(`Request from: ${req.get("user-agent")} [${new Date()}]`);
+  console.log(`Request from: ${req.get('user-agent')} [${new Date()}]`);
   next();
 });
 
